@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+body{
+    font-weight: 300;
+    height: 100vh;
+}
+
+.fl-row{
+    display: flex;
+    flex-flow: row;
+}
+
+.fl-col{
+    display: flex;
+    flex-flow: column;
+}
+
+#card-form{
+    margin: 10px;
+    margin-right: 250px;
+}
+
+.card-result{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 38px;
+    border: solid black 1px;
+}
+
+#card-result__card-bank{
+    width: 250px;
+    height: 75px;
+    margin: 20px;
+    background-size: cover;
+}
+
+#card-result__card-number{
+    width: 90%;
+    height: 50px;
+    margin: 10px 20px 0 20px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#card-result__card-data{
+    display: flex;
+    flex-flow: row;
+    margin: 40px 20px 0 20px;
+    justify-content: space-between;
+    font-size: x-large;
+    color: black;
+}
+
+#card-result__card-holder{
+    max-width: 55%;
+    margin-top: 8%;
+    margin-left: 8%;
+    font-size: large;
+}
+
+#card-result__card-date{
+    margin-left: auto;
+}
+
+#card-result__card-type{
+    width: 80px;
+    height: 50px;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+#card-history{
+    margin: 10px;
+}
+
+select, input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text].date {
+    width: 60px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#table{
+    text-align: center;
+    border: solid black 1px;
+    width: 1000px;
+}
